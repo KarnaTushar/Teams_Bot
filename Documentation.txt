@@ -1,0 +1,44 @@
+THIS BOT CAN JOIN MEETINGS ON MICROSOFT TEAMS ON ITS OWN BASED ON THE TIMETABLE YOU SUPPLY
+
+
+STEPS TO FOLLOW:
+-Login to your Microsoft Teams account on a browser and change its view to list from grid view
+(This how it should look: https://www.techmd.com/wp-content/uploads/2018/05/01-Meetings-Tab.jpg)
+
+-Open mainbot.py in oyur favourite text editor and supply your credentials which are required
+viz.
+username(email) & password
+
+-Create a discord webhook and copy its URL in discord_webhook.py 
+webhook_url = "https://discordapp.com/___________"
+
+-Make sure that timezone of your computer is correct. You can also deploy you bod on a cloud based computer 
+so that you bot is active 24 hours everyday but you have to make sure that the time zone of your virtual machine 
+matches your meeting time
+
+
+
+REQUIRED INSTALLATIONS:
+-you require the following libraries/packages for proper functioning of your bot
+
+1. certifi 2020.12.5:- Certifi provides Mozilla’s carefully curated collection of
+ Root Certificates for validating the trustworthiness of SSL certificates while verifying the
+ identity of TLS hosts.It has been extracted from the Requests project.
+
+2. chardet 4.0.0:- This is a continuation of Mark Pilgrim’s excellent chardet. Previously,
+ two versions needed to be maintained: one that supported python 2.x and one that supported python 3.x.
+ We’ve recently merged with Ian Cordasco’s charade fork, so now we have one coherent version that works for Python 2.7+ and 3.4+.
+
+3. Discord-Webhooks 1.0.4:- Simple module for Python which allows for sending of webhooks to a [Discord server](https://discordapp.com/).
+
+4. idna 3.1:- Support for the Internationalised Domain Names in Applications (IDNA) protocol as specified in RFC 5891. 
+
+5. requests 2.25.1:- Requests allows you to send HTTP/1.1 requests extremely easily. 
+
+6. schedule 1.0.0:- Python job scheduling for humans. Run Python functions (or any other callable) periodically using a friendly syntax.
+
+7. urllib3 1.26.3:- urllib3 has usage and reference documentation at urllib3.readthedocs.io.
+
+8. selenium 3.141.0:- https://seleniumhq.github.io/selenium/docs/api/py/api.html
+
+type or copy 'pip install -r requirements.txt' in your terminal to install requirements
