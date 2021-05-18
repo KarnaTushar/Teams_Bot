@@ -1,4 +1,4 @@
-# Teams_Bot
+# teams_bot
 Python based MS Teams bot to leave and join meeting
 
 A simple python bot which can be used as a crawler on Microsoft Teams to join and leave meetings based on the timetable provided,
